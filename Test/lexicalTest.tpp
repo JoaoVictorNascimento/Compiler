@@ -76,3 +76,5 @@ inteiro principal()
     até i = tamanho
     retorno(0)
 fim
+
+{aosidjoasoaisjoaji}

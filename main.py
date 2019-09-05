@@ -2,6 +2,7 @@ from sys import argv
 import lexical
 import utils
 
+
 def main(argv):
 
     # Reading Tpp file from terminal

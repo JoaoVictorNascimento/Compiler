@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import ply.lex as lex
+import re
 
 
 #Reserved
@@ -173,6 +174,7 @@ def t_COMENTARIO(t):
     r'{[^(})]*}'
     lineCount = re.findall('\n', t.value)
     t.lexer.lineno += len(lineCount)
+    return t
 
 def t_newLine(t):
     r'\n+'

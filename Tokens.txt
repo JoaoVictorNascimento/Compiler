@@ -263,3 +263,4 @@
 <NUM_INTEIRO, '0'>
 <FECHA_PAR, ')'>
 <FIM, 'fim'>
+<COMENTARIO, '{aosidjoasoaisjoaji}'>
